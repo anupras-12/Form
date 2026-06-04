@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<table>
+<caption> 1.Create table in html</caption>
+   <table border="1">
+    <thead>
+        <tr>
+            <th>Columu1</th>
+            <th>columu2</th>
+            <th>columu3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            
+                <td rowspan="2">Row 1 Cell 1</td>
+                <td>Row 1 Cell 2</td>
+                <td>Row 1 Cell 3</td>
+            
+        </tr>
+        <tr>
+            <td>Row 2 Cell 2</td>
+            <td>Row 2 Cell 3</td>
+        </tr>
+        <tr>
+            <td colspan="3">Row 3 Cell 1</td>
+        </tr>
+    </tbody>
+   </table> 
+
+
+
+
+   <caption> Time table</caption>
+   <table border="1">
+    <thead>
+        <tr>
+            <th rowspan="3">Day</th>
+            <th colspan="3">Seminar</th>
+        </tr>
+        <tr>
+            <th colspan="2">Schedule</th>
+            <th rowspan="2">Topic</th>
+        </tr>
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2">8:00 a.m.</td>
+            <td rowspan="2">5:00p.m</td>
+            <td>Introduction to XML</td>
+        </tr>
+        <tr>
+            <td>Validity DTD And Relax NG</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td>8:00a.m.</td>
+            <td>11:00a.m.</td>
+            <td rowspan="2">XPath</td>
+        </tr>
+        <tr>
+            <td>11:00a.m.</td>
+            <td>2:00p.m.</td>
+        </tr>
+        <tr>
+            <td>2:00p.m.</td>
+            <td>5:00p.m.</td>
+            <td>XSL Transformation</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>8:00a.m.</td>
+            <td>12:00p.m.</td>
+            <td>XSL Formating Objects</td>
+        </tr>
+    </tbody>
+   </table>
+
+
+
+   <caption>Employees Records</caption>
+   <table border="1">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Jobs</th>
+            <th>Working Experience</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>John</td>
+            <td>Software Engineer</td>
+            <td>Data Analyst</td>
+            <td rowspan="2">5 Years</td>
+        </tr>
+        <tr>
+            <td>Ale</td>
+            <td colspan="2">Senior Web Developer</td>
+        </tr>
+        <tr>
+            <td>Jack</td>
+            <td>Junior Tech Writer</td>
+            <td>Blogger</td>
+            <td>6 Months</td>
+        </tr>
+    </tbody>
+   </table>
+
+
+   <caption>Class Students Records</caption>
+   <table border="1">
+    <thead>
+        <tr>
+            <td rowspan="2">Heading</td>
+            <th>Student</th>
+            <th colspan="3">Details</th>
+        </tr>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Roll Number</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="4">Student List</td>
+            <td>1</td>
+            <td>Victor</td>
+            <td>Computer Science</td>
+            <td>12345</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Wiliams</td>
+            <td>Electronics</td>
+            <td>23456</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Harry</td>
+            <td>Electrical</td>
+            <td>34567</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Rick</td>
+            <td>Civil</td>
+            <td>45678</td>
+        </tr>
+    </tbody>
+   </table>
+
+
+   <caption>Students Lab Records</caption>
+   <table border="1">
+    <thead>
+     <tr>
+        <th colspan="2">Student Name</th>
+        <th colspan="3">Labs</th>
+        <th rowspan="2">Avg</th>
+     </tr>
+     <tr>
+        <th>First</th>
+        <th>Last</th>
+        <th>Lab1</th>
+        <th>Lab2</th>
+        <th>Lab3</th>
+     </tr>
+    </thead>
+     <tbody>
+        <tr>
+            <td>Sol</td>
+            <td>Rosenberg</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100.0</td>
+
+        </tr>
+        <tr>
+            <td>Frank</td>
+            <td>Rizzo</td>
+            <td>50</td>
+            <td>60</td>
+            <td>90</td>
+            <td>66.6</td>
+        </tr>
+        <tr>
+            <td>Ali</td>
+            <td>Kam</td>
+            <td>90</td>
+            <td>80</td>
+            <td>60</td>
+            <td>76.6</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Summary</td>
+            <td>Avg</td>
+            <td>80.0</td>
+            <td>80.0</td>
+            <td>83.3</td>
+            <td>81.1</td>
+        </tr>
+        <tr>
+            <td>Min</td>
+            <td>50</td>
+            <td>60</td>
+            <td>60</td>
+            <td>66.6</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<caption>My Schedule</caption>
+<table border="1">
+    <thead>
+        <tr>
+            <th></th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Breakfast</td>
+            <td>In lair</td>
+            <td>With Cronies</td>
+            <td>In lair</td>
+            <td>In lair</td>
+            <td>In lair</td>
+        </tr>
+        <tr>
+            <td>Morning</td>
+            <td colspan="2">Design traps</td>
+            <td colspan="3">Improve Hideout</td>
+        </tr>
+        <tr>
+            <td>Afternoon</td>
+            <td>train minions</td>
+            <td>train minions</td>
+            <td>train minions</td>
+            <td>train minions</td>
+            <td rowspan="2">World Domination</td>
+        </tr>
+        <tr>
+            <td>Evening</td>
+            <td>manaical laughter</td>
+            <td>manaical laughter</td>
+            <td>manaical laughter</td>
+            <td>manaical laughter</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<table>
+    <thead>
+        <tr>
+            
+        </tr>
+    </thead>
+</table>
+
+</body>
+</html>
